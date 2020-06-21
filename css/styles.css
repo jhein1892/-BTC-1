@@ -1,0 +1,383 @@
+/*
+font-family: 'Yrsa', serif; [Navbar]
+font-family: 'Dancing Script', cursive; [H1]
+font-family: 'Montserrat', sans-serif; [body]
+ */
+
+a{
+   text-decoration: none;
+   color: grey;
+  }
+body {
+  background-color: #F4F3F3;
+  margin: 0 0 auto;
+  font-family: 'Montserrat', sans-serif;
+    }
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+}
+h2{
+  font-family: 'Yrsa', serif;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+}
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin-top: 30px;
+    width: 75%;
+    margin-bottom: 75px;
+}
+hr:after {
+    background: #fff;
+    content: '📖';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+
+}
+table {
+  width: 100%;
+  text-align: center;
+  line-height: 2;
+  margin-left: 0;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 50px;
+}
+td {
+  padding: 0 30px 0;
+  vertical-align: text-top;
+}
+br {
+  height: 350px;
+}
+
+/*Classes!!*/
+
+.about {
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  transition: background-color .2s;
+  padding: 10px 10px 15px;
+}
+
+.about:hover {
+  color: #6CD1D5;
+}
+
+.about:hover .dropdown-content {
+  display: block;
+  background-color: #FFFAF0;
+}
+
+.bookstore-feel {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  line-height: 2;
+  margin: auto;
+  text-align: center;
+  left: 150px;
+
+
+
+}
+
+.content {
+  display: block;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  position: static;
+
+}
+
+.content-images {
+  width: 80%;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.dropdown-content {
+  display: none;
+  line-height: 3;
+  font-size: 18px;
+}
+
+.headers {
+  margin: 50px auto 25px auto;
+  text-align: center;
+}
+
+.introduction {
+   margin: 70px auto;
+   text-align: center;
+   width: 60%;
+   font-size: 24px;
+   line-height: 1.5;
+
+ }
+
+.logo {
+  height: 100px;
+  width: 125px;
+  margin-left: 15%;
+}
+
+.reader-images {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: #6CD1D59C;
+    border-radius: 25%;
+}
+
+.reader-button {
+    color: black;
+    height: 50px;
+    width: 125px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 15%;
+    background-color: rgba(189, 231, 233, 1);
+    margin: 10px;
+
+}
+
+.market-research {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  line-height: 2;
+  margin: auto;
+  text-align: center;
+  left: 150px;
+}
+
+.middle-container {
+  position: static;
+  display: block;
+  width: 100%
+}
+
+.navbar {
+  background-color: #FFFAF0;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  font-family: 'Yrsa', serif;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.social-media {
+  text-align: center;
+  margin: 50px auto 15px;
+}
+
+.social-media-image {
+  height: 40px;
+  width: 40px;
+  padding: 30px;
+
+}
+
+.timely-results {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  line-height: 2;
+  margin: auto;
+  text-align: center;
+  left: 150px;
+
+}
+
+.top-container-logo {
+  position: static;
+  width: 100%;
+  margin-top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  display: block;
+  position: static;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.writer-button {
+  color: White;
+  height: 50px;
+  width: 125px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 15%;
+  background-color: #FF9600;
+  margin: 10px;
+}
+
+.writers-heading {
+  color: #FF9600;
+  margin-top: 0;
+  display: inline-block;
+
+}
+
+.writer-images {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: #FF960073;
+  border-radius: 25%;
+}
+
+
+/* ID's!!*/
+
+#about {
+  color: inherit;
+  font-family: inherit;
+  background-color: inherit;
+  border: none;
+  font-size: inherit;
+  color: grey;
+}
+
+#about-button {
+  padding: 10px;
+  width: 100px;
+  color: grey;
+  display: inline-block;
+  text-align: center;
+}
+
+#about-button:hover {
+  background-color: #6CD1D5;
+  color: black;
+}
+
+#blog {
+  position: absolute;
+  left: 60%;
+  top: 30%;
+  transition: background-color .2s;
+  padding: 10px 10px 15px;
+}
+
+#blog:hover {
+  color: #6CD1D5;
+}
+
+#contact-button {
+  padding: 10px;
+  color: grey;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+#contact-button:hover {
+  background-color: #6CD1D5;
+  color: black;
+}
+
+#faq-button {
+  padding: 10px;
+  color: grey;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+#faq-button:hover {
+  background-color: #6CD1D5;
+
+  color: black;
+}
+
+#home-logo {
+  margin-top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 300px;
+  width: 400px;
+}
+
+#login {
+  position: absolute;
+  left: 70%;
+  top: 20%;
+  transition: background-color .2s;
+  padding: 10px 10px 15px;
+}
+
+#login:hover {
+  color: #6CD1D5;
+}
+
+#readers {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  transition: background-color .2s;
+  padding: 10px 10px 15px;
+}
+
+#readers:hover {
+  color: #6CD1D5;
+}
+
+#search {
+  position: absolute;
+  left: 75%;
+  top: 25%;
+  margin: 16px;
+  border-radius: 10%;
+  border: none;
+  background: #F4F3F3;
+  height: 18px;
+}
+
+#search-button {
+  position: absolute;
+  left: 78%;
+  top: 30%;
+  margin: 17px;
+  height: 18px;
+  width: 24px;
+  background: #F4F3F3;
+  border-radius: 10%
+}
+
+#writers {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  transition: text-color .2s;
+  padding: 10px 10px 15px;
+}
+
+#writers:hover {
+  color: #6CD1D5;
+}
